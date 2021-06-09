@@ -111,4 +111,9 @@ button a {
     font-size: 50px;
     text-decoration: none;
     color: black;
+    word-wrap: normal;
+}
+
+a {
+    word-wrap: break-word;
 }
