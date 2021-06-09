@@ -1,92 +1,114 @@
-        body{
-            background-color: #ffa07a;
+body {
+    background-color: #ffa07a !important;
+    overflow-x: hidden;
+}
 
-        }
-        .titulo{
-            background-color: #B87358;
-            margin-left: 30%;
-            margin-right: 30%;
-            margin-top: 1%;
-            border-radius: 15px;
-        }
-        .conteudo{
-            margin-right: 4%;
-            margin-left: 4%;
-        }
-        .nota{
-         background-color: #D48F5B;
-         width: 320px;
-         height: 200px;
-         box-shadow:  4px 4px 4px  black;
-        }
-        .exemplos{
-            background-color: #D48F5B;
-            float: right;
-            width: 1100px;
-            padding-right: 20px;
-            height: 76%;
-            box-shadow:  5px 5px 5px  black;
-        }
-        .exCaixa1{
-            float: left;
-            width: 50%;
-            margin-top: 5%;
-            margin-left: 5%;
-        }.exCaixa2{
-            float: right;
-            width: 400px;
-            margin-top: 4%;
-           
-        }
-        .exText{
-            font-family: 'Roboto Slab', serif;
-            text-align: left;
-            line-height: 1.5em;
-            margin-left: 1%;
-            font-size: 20px;
-        }
-        .exText b {
-           background-color: transparent;
-           font-weight: bolder;
-        }
-        .exText u {
-           background-color: transparent;
-           font-weight: bolder;
-        }
-        h1{
-            font-family: 'Dancing Script', cursive;
-            text-align: center;
-            font-size: 45px;
-        }
-        h2{
-            font-family: 'Dancing Script', cursive;
-            text-align: center;
-            font-size: 40px;
-            text-decoration: underline;
-        }
-        h3{
-            font-family: 'Dancing Script', cursive;
-            text-align: left;
-            font-size: 34px;
-            margin-left: 1%;
-        }
-        p{
-            font-family: 'Roboto Slab', serif;
-            text-align: center;
-            line-height: 1.5em;
-        }
-        p b{
-            background-color: rgba(255, 255, 0, 0.473);
-        }
-        button{
-           margin-top: 20px;
-           width: 320px;
-           height: 200px;
-           box-shadow:  4px 4px 4px  black;
-           background-color: #BE5328;
-           border: none;
-        }button a {
-            font-size: 50px;
-            text-decoration: none;
-            color: black;
-        }
+.titulo {
+    background-color: #B87358;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+
+.conteudo {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.nota {
+    background-color: #D48F5B;
+    /*width: 23%;*/
+    max-width: 328px;
+    /*min-height: 300px;*/
+    box-shadow: 4px 4px 4px black;
+}
+
+.exemplos {
+    background-color: #D48F5B;
+    float: right;
+    width: 100%;
+    padding-right: 20px;
+    /* height: 76%; */
+    box-shadow: 5px 5px 5px black;
+}
+
+.exCaixa1 {
+    float: left;
+    width: 50%;
+    /*margin-top: 50px;*/
+    margin-left: 5%;
+}
+
+.exCaixa2 {
+    float: right;
+    width: 400px;
+    /*margin-top: 50px;*/
+
+}
+
+.exText {
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    line-height: 1.5em;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.exText b {
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.exText u {
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    font-size: 34px;
+    margin-left: 1%;
+}
+
+p {
+    margin-top: 0;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+p b {
+    background-color: rgba(255, 255, 0, 0.473);
+}
+
+button {
+    cursor: pointer;
+    margin-top: 20px;
+    /*width: 23%;*/
+    height: 200px;
+    box-shadow: 4px 4px 4px black;
+    background-color: #BE5328;
+    border: none;
+}
+
+button a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
