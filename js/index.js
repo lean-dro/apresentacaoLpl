@@ -7,9 +7,9 @@ btForm = document.getElementById("btForm")
 btForm.onclick = function(){
     slideAnim()
     //Esperar 1s de anim e abrir a página do forms
-    /*setTimeout(function(){
-        window.location.href = "forms"
-    },1000)*/
+    setTimeout(function(){
+        window.location.href = "Formulario.html"
+    },1000)
 }
 
 // Func Anim
