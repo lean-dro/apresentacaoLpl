@@ -1,0 +1,59 @@
+.titulo{
+    background-color: #B87358;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+.lead{
+    background-color: #B87358;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+.corpoQ{
+    background-color: #B87358;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    border-radius: 15px;
+    transform: translateX(50%);
+    transform: translateY(50%);
+}
+body{
+    background-color: #ffa07a;
+
+}
+h6{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 1%;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 50;
+}
+.pergunta{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    line-height: 1.0em;
+    font-size: 35;
+    margin-left: 1%;
+}
+.perguntaB{
+    background-color: wheat;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    line-height: 1.0em;
+    font-size: 30;
+    margin-left: 1%;
+}
+label {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35;
+    margin-left: 1%;
+}
