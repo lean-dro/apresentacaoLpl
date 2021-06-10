@@ -6,6 +6,8 @@
         <meta charset="utf-8">
     </head>
     <body>
+        <!--Div Anim-->
+        <div id="divAnim" class="divAnim">
         <!--Formulariozada-->
         <div class="titulo">
             <div>
@@ -16,7 +18,7 @@
                 <h1 class="lead">Questoes</h1>
             </div>
             <div class="corpoQ" style="transform: translateY(0);">
-                <form id="formulario" method="post">
+                <form id="formulario" onsubmit="return false">
                     <br>
                     <!--pergunta 1-->
                     <label>1) aponte em que frase esta o verbo transitivo indireto</label>
@@ -38,6 +40,9 @@
                     <br>
                 </form>
             </div>
+        </div>
 
+        <script src="js/Formulario.js"></script>
+        <script src="js/resolucao.js"></script>
     </body>
 </html>
