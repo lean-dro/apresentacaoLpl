@@ -23,6 +23,7 @@
 }
 body{
     background-color: #ffa07a;
+    overflow-x: hidden;
 
 }
 h6{
@@ -36,6 +37,7 @@ h1{
     text-align: center;
     line-height: 1.5em;
     font-size: 50;
+    word-wrap: break-word;
 }
 .pergunta{
     font-family: 'Roboto Slab', serif;
@@ -43,6 +45,7 @@ h1{
     line-height: 1.0em;
     font-size: 35;
     margin-left: 1%;
+    word-wrap: break-word;
 }
 .perguntaB{
     background-color: wheat;
@@ -51,7 +54,13 @@ h1{
     line-height: 1.0em;
     font-size: 30;
     margin-left: 1%;
+    cursor: pointer;
 }
+
+.divAnim{
+    transform: translateX(-100%);
+}
+
 label {
     font-family: 'Roboto Slab', serif;
     font-size: 35;
