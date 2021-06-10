@@ -1,7 +1,6 @@
-// index JS
 // Vars
-divAnim = document.getElementById("divAnim")
-btForm = document.getElementById("btForm")
+var divAnim = document.getElementById("divAnim")
+var btForm = document.getElementById("btForm")
 
 // onClick
 btForm.onclick = function(){
