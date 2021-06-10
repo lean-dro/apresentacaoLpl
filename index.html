@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
     <div id="divAnim" style="transition: 1s;">
         <div class="titulo">
             <h1>Verbos Transitivos Indiretos</h1>
@@ -33,7 +34,10 @@
                 
                 <!--O que é?-->
                 <div class="nota" style="margin-top: 35px;">
-                    <h2>O que é?</h2>
+                	<div class="justify-content-md-center" style="display: flex;">
+                        <h2>O que é?</h2>
+                        <img id="btOQAudio" class="rounded-circle" style="margin-left: 20px; margin-top: 5px; cursor: pointer;" height="30px" ="30px" src="img/audio-icon.png">
+                    </div>
                     <p>Verbo transitivo indireto<b> é aquele que exige um complemento por meio de preposição.</b>
                         Esse complemento recebe o nome de objetivo indireto.</p>
                 </div>
@@ -70,7 +74,11 @@
                         <div class="row">
                           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                             <!--Linha de cima - Left-->
-                            <h3>Eu acredito em você!</h3>
+                            <div style="display: flex;">
+                            	<h3>Eu acredito em você!</h3>
+                            	<img id="btEx1Audio" class="rounded-circle" style="margin-left: 20px; margin-top: 5px; cursor: pointer;" height="30px" ="30px" src="img/audio-icon.png">
+                            </div>
+                            
                             <p class="exText">
                                 <u>Sujeito</u>: eu
                                 <br><u>Predicado</u>: acredito em você
@@ -82,7 +90,11 @@
 
                           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                             <!--Linha de cima - Right-->
-                            <h3>O diretor concordou com as propostas.</h3>
+                            <div style="display: flex;">
+                            	<h3>O diretor concordou com as propostas.</h3>
+                            	<img id="btEx2Audio" class="rounded-circle" style="margin-left: 20px; margin-top: 5px; cursor: pointer;" height="30px" ="30px" src="img/audio-icon.png">
+                            </div>
+                            
                             <p class="exText">
                                 <u>Sujeito</u>: o diretor
                                 <br><u>Predicado</u>: concordou com as propostas
@@ -97,7 +109,11 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                                 <!--Linha de baixo - Left-->
-                                <h3 style="margin-top: 20px" ;>A empresa precisa de mim.</h3>
+                                <div style="display: flex;margin-top: 20px;">
+                            		<h3>A empresa precisa de mim.</h3>
+                            		<img id="btEx3Audio" class="rounded-circle" style="margin-left: 20px; margin-top: 5px; cursor: pointer;" height="30px" ="30px" src="img/audio-icon.png">
+                            	</div>
+                                
                                 <p class="exText">
                                     <u>Sujeito</u>: a empresa
                                     <br><u>Predicado</u>: precisa de mim
@@ -108,7 +124,11 @@
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                                 <!--Linha de baixo - Right-->
-                                <h3 style="margin-top: 20px" ;>O estudante obedeceu às regras.</h3>
+                                <div style="display: flex;margin-top: 20px;">
+                            		<h3>O estudante obedeceu às regras.</h3>
+                            		<img id="btEx4Audio" class="rounded-circle" style="margin-left: 20px; margin-top: 5px; cursor: pointer;" height="30px" ="30px" src="img/audio-icon.png">
+                            	</div>
+                                
                                 <p class="exText">
                                     <u>Sujeito</u>: o estudante
                                     <br><u>Predicado</u>: obedeceu às regras
@@ -129,7 +149,9 @@
 
     </div>
 
+
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/playAudio.js"></script>
 </body>
 
 </html>
